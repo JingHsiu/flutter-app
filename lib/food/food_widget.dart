@@ -60,9 +60,7 @@ class _FoodWidgetState extends State<FoodWidget> {
               size: 30.0,
             ),
             onPressed: () async {
-              // backto_foodrecord
-
-              context.pushNamed('record');
+              context.safePop();
             },
           ),
           actions: [

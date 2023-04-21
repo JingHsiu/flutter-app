@@ -13,7 +13,7 @@ class NutrientModel extends FlutterFlowModel {
 
   // State field(s) for DropDown widget.
   String? dropDownValue;
-  FormFieldController<String>? dropDownController;
+  FormFieldController<String>? dropDownValueController;
   // State field(s) for TextField widget.
   TextEditingController? textController;
   String? Function(BuildContext, String?)? textControllerValidator;

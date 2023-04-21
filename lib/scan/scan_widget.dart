@@ -136,6 +136,10 @@ class _ScanWidgetState extends State<ScanWidget> with TickerProviderStateMixin {
                           shape: BoxShape.circle,
                         ),
                         child: InkWell(
+                          splashColor: Colors.transparent,
+                          focusColor: Colors.transparent,
+                          hoverColor: Colors.transparent,
+                          highlightColor: Colors.transparent,
                           onTap: () async {
                             // take_shot
                             _model.barcodevalue =
